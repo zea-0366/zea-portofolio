@@ -8,10 +8,17 @@
   <link href='css/style.css' rel='stylesheet'>
   <link href='css/skins/color-1.css' rel='stylesheet'>
   <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css' rel="stylesheet">
+  <!-- ==========STYLE SWITCHER START=========== -->
+  <!-- ==========STYLE SWITCHER END=========== -->
+  <link href='css/skins/color-1.css' class="alternate-style" title="color-1" disabled rel='stylesheet'>
+  <link href='css/skins/color-2.css' class="alternate-style" title="color-2" disabled rel='stylesheet'>
+  <link href='css/skins/color-3.css' class="alternate-style" title="color-3" disabled rel='stylesheet'>
+  <link href='css/skins/color-4.css' class="alternate-style" title="color-4" disabled rel='stylesheet'>
+  <link href='css/skins/color-5.css' class="alternate-style" title="color-5" disabled rel='stylesheet'>
   <link href="css/style-switcher.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="dark">
   <!-- Main Container Start -->
   <div class="main-container">
     <!-- Aside Start -->
@@ -23,11 +30,11 @@
         <span></span>
       </div>
       <ul class="nav">
-        <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-        <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-        <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-        <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-        <li><a href="#"><i class="fa fa-comment"></i>Contact</a></li>
+        <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+        <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+        <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+        <li><a href="#contact"><i class="fa fa-comment"></i>Contact</a></li>
       </ul>
     </div>
     <!-- Aside End -->
@@ -35,14 +42,14 @@
 
     <div class="main-content">
       <!-- Home Section Start -->
-      <section class="home section ">
+      <section class="home section " id="home">
         <div class="container">
           <div class="row">
             <div class="home-info padding-15">
               <h3 class="hello">Hello, my name is <span class="name">Fariza Zea De Asminto</span></h3>
               <h3 class="my-profession">I'm a <span class="typing">web designer</span></h3>
-              <p>I'am a web Designer with extensive experience for over 7 years.My expertise is to create and website
-                desig,graphic design and many more...</p>
+              <p>I'am a web Designer with extensive experience for over 1 years.My expertise is to create website
+                design,graphic design and many more...</p>
               <a href="#contact" class="btn hire-me">Hire Me</a>
             </div>
             <div class="home-img padding-15">
@@ -54,7 +61,7 @@
       </section>
       <!-- Home Section End -->
       <!-- About Section Start -->
-      <section class="about section  ">
+      <section class="about section  " id="about">
         <div class="container">
           <div class="row">
             <div class="section-title padding-15">
@@ -241,7 +248,7 @@
       </section>
       <!-- About Section End -->
       <!-- service Section Start 1:34:10-->
-      <section class="service section ">
+      <section class="service section " id="services">
         <div class="container">
           <div class="row">
             <div class="section-title padding-15">
@@ -326,7 +333,7 @@
       </section>
       <!--service Section End -->
       <!-- Portofolio Section Start -->
-      <section class="portfolio section  hidden">
+      <section class="portfolio section " id="portfolio">
         <div class="container">
           <div class="row">
             <div class="section-title padding-15">
@@ -399,7 +406,7 @@
       </section>
       <!-- Portofolio Section End -->
       <!-- Contact Section Start -->
-      <section class="contact section">
+      <section class="contact section" id="contact">
         <div class="container">
           <div class="row">
             <div class="section-title padding-15">
@@ -488,10 +495,10 @@
   <!-- style switcher start -->
   <div class="style-switcher">
     <div class="style-switcher-toggler s-icon">
-      <i class="fas fa-cog fa-skin"></i>
+      <i class="fas fa-cog fa-spin"></i>
     </div>
     <div class="day-night s-icon">
-      <i class="fas fa-moon"></i>
+      <i class="fas "></i>
     </div>
     <h4>Theme Color</h4>
     <div class="colors">
@@ -504,11 +511,11 @@
   </div>
   <!-- style switcher End -->
   <!-- js file -->
-
-
-
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+    integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script defer type="text/javascript" src="js/script.js"></script>
+  <script defer type="text/javascript" src="js/style-switcher.js"></script>
 </body>
 
 </html>
